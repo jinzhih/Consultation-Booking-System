@@ -37,3 +37,25 @@ div.jodit_workplace > div.jodit_wysiwyg {
 div.jodit_statusbar {
 	display: none;
 }
+.online-submit-btn.ant-btn.ant-btn-primary{
+	background-color: #090;
+	border-color: #090;
+	&:hover {
+		background-color: #0c0;
+		border-color: #0c0;
+	}
+	&:active {
+		background-color: #0c0;
+		border-color: #0c0;
+	}
+	&:focus {
+		background-color: #0c0;
+		border-color: #0c0;
+	}
+}
+
+.online-reset-btn.ant-btn:hover, .online-reset-btn.ant-btn:focus {
+	color: #accd74;
+	background-color: #fff;
+	border-color: #accd74;
+}

@@ -17,7 +17,16 @@
 a.login-form-forgot{
 	color: #0c0;
 }
-
+.l-login__register > a{
+	color: #0c0;
+}
+span.ant-checkbox-checked .ant-checkbox-inner {
+	background-color: #0c0;
+	border-color: #0c0;
+}
+label.ant-checkbox-wrapper:hover span.ant-checkbox-inner, span.ant-checkbox:hover span.ant-checkbox-inner, input.ant-checkbox-input:focus + span.ant-checkbox-inner{
+	border-color: #0c0;
+}
 .l-login {
 	padding-top: 8rem;
 	display: flex;

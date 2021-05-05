@@ -10,6 +10,7 @@ import BASE_URL from '../../constants/env';
 import { BOOKING_TOPIC, BOOKING_TYPE } from '../../constants/option';
 import './onlineBooking.scss';
 import { fetchUserDetail } from '../../utils/api/user';
+
 const layout = {
     labelCol: { span: 4 },
     wrapperCol: { span: 16 },
@@ -203,14 +204,14 @@ const OnlineBooking = () => {
                     </Dragger>
                 </Form.Item>
                 <Form.Item {...tailLayout}>
-                    <Button
+                    <Button className='online-submit-btn'
                         type='primary'
                         htmlType='submit'
                         onClick={() => setModalShow(true)}
                     >
                         Submit
                     </Button>
-                    <Button htmlType='button' onClick={onReset}>
+                    <Button htmlType='button' className='online-reset-btn'onClick={onReset}>
                         Reset
                     </Button>
                 </Form.Item>
