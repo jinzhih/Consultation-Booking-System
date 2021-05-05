@@ -7,7 +7,6 @@ import {
 import { Form, Input, Button, Checkbox, Spin, Alert, notification   } from 'antd';
 import { UserOutlined, LockOutlined } from '@ant-design/icons';
 import { STUDENT_HOME_URL, ADMIN_HOME_URL } from '../routes/URLMap';
-import { BulbTwoTone } from '@ant-design/icons';
 import './logIn.scss';
 //TODO href update
 class LoginForm extends React.Component {
@@ -73,9 +72,6 @@ class LoginForm extends React.Component {
                 ) : (
                     <Fragment>
                         {authRedirect}
-                        <div className='c-bubble' onClick={openNotification}>
-                                <BulbTwoTone />
-                        </div>
                         <h1 className='l-login__title'>AIBT Booking System</h1>
                         <div className='b-form-container'>
                             <Form
